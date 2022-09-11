@@ -1877,3 +1877,16 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+@media screen and (max-width: 300px)
+{
+  .header{
+    width: 100%;
+  }
+  #header-content{
+    width: 100%;
+  }
+  .header #header-content .content-text h2{
+    width: 200px;
+    margin: 0;
+  }
+}
